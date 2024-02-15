@@ -1,0 +1,128 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../asset/pemandangan.jpg);
+  position: relative;
+}
+
+button {
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#convert {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid #097633;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#convert:hover {
+  background-color: #04aa6d;
+  border-radius: 25px;
+}
+#convert:active {
+  transform: translateY(5px);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#reset {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid #097633;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #04aa6d;
+  border-radius: 25px;
+}
+
+#reverse {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid #097633;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#reverse:hover {
+  background-color: #04aa6d;
+  border-radius: 25px;
+}
+#reverse:active {
+  transform: translateY(5px);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#result {
+  margin-top: 20px;
+}
+
+#formula {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#formula-value {
+  color: #4caf50;
+}
+
+input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #4a4848;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 10px 12px 15px rgba(0, 255, 47, 0.2);
+  border-radius: 10px;
+}
+.kotak {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.banner {
+  border: #ababab 5px solid;
+  padding: 100px;
+  text-align: justify;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 35px;
+}
+.kotak h2 {
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  text-shadow: 2px 2px 5px rgb(11, 177, 22);
+  font-style: italic;
+}
